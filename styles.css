@@ -1,0 +1,36 @@
+@font-face {
+	font-family: Meutas;
+	src: url(fonts/Meutas-Black.otf);
+}
+
+html, body  {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #004071;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 70px 0;
+}
+
+p {
+	font-family: Meutas;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.logo-with-text {
+	width: 500px;
+}
