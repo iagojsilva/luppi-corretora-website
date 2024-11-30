@@ -73,6 +73,7 @@ new ScrollMagic.Scene({
 .addTo(controller)
 .setPin(".hero")
 
+// Parallax the intro section
 new ScrollMagic.Scene({
 	triggerElement: ".intro",
 	triggerHook: "onEnter"
@@ -92,6 +93,20 @@ new ScrollMagic.Scene({
 })
 .setPin(".intro")
 .addTo(controller)
+
+// Parallax the client connection section
+new ScrollMagic.Scene({
+	triggerElement: ".client-connection",
+	triggerHook: "onEnter"
+})
+	.duration("200%")
+	.setTween(".client-connection", {
+		backgroundPosition: "90% 50%",
+		ease: Linear.easeNone
+	})
+	.addIndicators()
+	.addTo(controller)
+
 
 // Pin client-connection section
 new ScrollMagic.Scene({
