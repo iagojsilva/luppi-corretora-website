@@ -1,6 +1,6 @@
 
 anime({
-  targets: 'svg .cls-1',
+  targets: '.logo svg .cls-1',
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: "easeInCirc",
   duration: 1800,
@@ -32,7 +32,7 @@ anime({
 });
 
 anime({
-  targets: 'svg polygon',
+  targets: '.logo svg polygon',
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: 'easeInOutSine',
   duration: 1800,
