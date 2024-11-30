@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #86aad2;
+      }
+
+      .cls-2 {
+        fill: #004071;
+      }
+
+      .cls-3 {
+        fill: #aca4cf;
+      }
+
+      .cls-4 {
+        fill: #4c75a0;
+      }
+
+      .cls-5 {
+        fill: #e6e7e8;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <g>
+          <polygon class="cls-4" points="391.28 407.93 505.92 253.69 352.11 410.75 391.28 407.93"/>
+          <polygon class="cls-2" points="352.11 410.75 505.86 253.71 502.97 242.04 474.22 264.15 491.08 210.86 478.6 184.53 432.23 234.48 408.7 234.13 386.23 253.34 324.46 279.2 360.12 335.87 354.76 370.86 352.11 410.75"/>
+          <polygon class="cls-5" points="403.27 260.73 415.57 247.04 430.57 241.05 421.52 248.49 417.22 254.27 403.27 260.73"/>
+          <polygon class="cls-5" points="465.96 202.34 478.4 189.62 487.26 208.5 476.74 198.86 465.96 202.34"/>
+          <polygon class="cls-3" points="497.85 307.33 391.28 407.93 517.43 341.92 497.85 307.33"/>
+          <polygon class="cls-1" points="497.85 307.33 505.92 253.69 391.28 407.93 497.85 307.33 497.85 307.33"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
