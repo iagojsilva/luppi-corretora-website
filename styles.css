@@ -29,12 +29,12 @@ body, html {
 }
 
 .intro .text {
-	/* margin: 0 auto; */
-	/* position: absolute; */
+	margin: 0 auto;
+	position: absolute;
 	font-size: 1.2rem;
 	padding: 0 40px;
 	text-align: center;
-	/* top: 50%; */
+	top: 20%;
 }
 
 .happy-family-vid {
@@ -44,11 +44,21 @@ body, html {
 }
 
 .intro {
-	/* background-image: url(assets/happy-family.jpg); */
+	background-image: url(assets/happy-family.jpg);
 	background-color: var(--primary-color-bg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: var(--primary-color-text);
+	height: 100vh;
+}
+
+.intro:before {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+	background-color: var(--primary-color-bg);
 }
 
 .client-connection {

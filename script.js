@@ -67,7 +67,18 @@ new ScrollMagic.Scene({
     triggerElement: ".hero",
     triggerHook: "onLeave"
 })
-    .setPin(".hero")
+    .addTo(controller)
+    .setPin(".hero");
+new ScrollMagic.Scene({
+    triggerElement: ".intro",
+    triggerHook: "onEnter"
+})
+    .duration("200%")
+    .setTween(".intro", {
+    backgroundPosition: "100% 0%",
+    ease: Linear.easeNone
+})
+    .addIndicators()
     .addTo(controller);
 // Pin intro section
 new ScrollMagic.Scene({
