@@ -81,11 +81,34 @@ new ScrollMagic.Scene({
 })
     .addIndicators()
     .addTo(controller);
+const fromMiddleTimeline = new TimelineMax();
+const fromMiddleFrom = TweenMax.from("#text-1", 1, { y: 0 });
+const fromMiddleTo = TweenMax.to("#text-1", 1, { y: -500 });
+fromMiddleTimeline.add(fromMiddleFrom).add(fromMiddleTo);
+// Slide middle out
+new ScrollMagic.Scene({
+    triggerElement: ".intro",
+    offset: 500
+})
+    .setTween(fromMiddleTimeline)
+    .addTo(controller);
+const fromBottomTimeline = new TimelineMax();
+const fromBottomFrom = TweenMax.from("#text-2", 1, { y: 500 });
+const fromBottomTo = TweenMax.to("#text-2", 1, { y: 0 });
+fromBottomTimeline.add(fromBottomFrom).add(fromBottomTo);
+// Slide bottom in
+new ScrollMagic.Scene({
+    triggerElement: ".intro",
+    offset: 500
+})
+    .setTween(fromBottomTimeline)
+    .addTo(controller);
 // Pin intro section
 new ScrollMagic.Scene({
     triggerElement: ".intro",
     triggerHook: "onLeave"
 })
+    .duration("100%")
     .setPin(".intro")
     .addTo(controller);
 // Parallax the client connection section
